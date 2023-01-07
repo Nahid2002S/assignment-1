@@ -88,69 +88,6 @@ li ion-icon{
     color: rgb(6, 182, 36);
 }
 
-/* My plans Section Style */
-
-.plans-title{
-    text-align: center;
-    font-size: 30px;
-    color: #181818;
-    margin-bottom: 45px;
-}
-
-.plans-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 80px;
-}
-
-.plan-name{
-    margin: 15px 0;
-    color: #181818;
-}
-
-.plan-description{
-    font-weight: 500;
-    color: #474747;
-}
-
-/* Call Now Section Style */
-
-.call-now{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gradient{
-    width: 750px;
-    height: 200px;
-    border-radius: 5px;
-    background-image: linear-gradient(to left,  transparent, rgb(243, 63, 138)), url(images/watch.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.call-now-content{
-    padding-left: 60px;
-    padding-top: 45px;
-}
-
-.call-now-title{
-    color: #fff;
-    margin-bottom: 10px;
-}
-
-.call-now-btn{
-    padding: 12px 20px;
-    border: 0;
-    border-radius: 5px;
-    color: rgb(243, 63, 138);
-    font-weight: 500;
-}
-
 /* Extra Section - My Skills Style */
 
 .skill-title{
@@ -165,7 +102,7 @@ li ion-icon{
     align-items: center;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .skill1{
@@ -227,6 +164,69 @@ li ion-icon{
 hr{
     width: 600px;
     margin-left: 325px;
+}
+
+/* My plans Section Style */
+
+.plans-title{
+    text-align: center;
+    font-size: 30px;
+    color: #181818;
+    margin-bottom: 45px;
+}
+
+.plans-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.plan-name{
+    margin: 15px 0;
+    color: #181818;
+}
+
+.plan-description{
+    font-weight: 500;
+    color: #474747;
+}
+
+/* Call Now Section Style */
+
+.call-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient{
+    width: 750px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left,  transparent, rgb(243, 63, 138)), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.call-now-content{
+    padding-left: 60px;
+    padding-top: 45px;
+}
+
+.call-now-title{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.call-now-btn{
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(243, 63, 138);
+    font-weight: 500;
 }
 
 /* Footer Style */
