@@ -110,7 +110,7 @@ li ion-icon{
     color: #474747;
 }
 
-/* Call Now Section */
+/* Call Now Section Style */
 
 .call-now{
     display: flex;
@@ -122,11 +122,10 @@ li ion-icon{
     width: 750px;
     height: 200px;
     border-radius: 5px;
-    background-image: url(images/watch.png), url(images/gradient2.png);
+    background-image: linear-gradient(to left,  transparent, rgb(230, 98, 10)), url(images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-blend-mode: multiply;
 }
 
 .call-now-content{
