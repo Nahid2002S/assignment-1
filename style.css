@@ -29,6 +29,10 @@
     text-align: right;
 }
 
+.out, .hope{
+    color: rgb(8, 148, 212);
+}
+
 .header-description{
     text-align: right;
     color: #474747;
@@ -39,7 +43,7 @@
     padding: 12px 18px;
     border: 0;
     border-radius: 5px;
-    background-color: rgb(230, 98, 10);
+    background-color: rgb(8, 148, 212);
     color: #fff;
     font-weight: 500;
 }
@@ -77,6 +81,7 @@ section{
 li{
     list-style: none;
     color: #474747;
+    margin-bottom: 8px;
 }
 
 li ion-icon{
@@ -122,7 +127,7 @@ li ion-icon{
     width: 750px;
     height: 200px;
     border-radius: 5px;
-    background-image: linear-gradient(to left,  transparent, rgb(230, 98, 10)), url(images/watch.png);
+    background-image: linear-gradient(to left,  transparent, rgb(243, 63, 138)), url(images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -142,7 +147,7 @@ li ion-icon{
     padding: 12px 20px;
     border: 0;
     border-radius: 5px;
-    color: rgb(230, 98, 10);
+    color: rgb(243, 63, 138);
     font-weight: 500;
 }
 
